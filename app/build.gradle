@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 24
-    buildToolsVersion "24.0.1"
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
 
     defaultConfig {
         applicationId "com.wzonelayer.zoomlistview.sample"
         minSdkVersion 15
-        targetSdkVersion 24
+        targetSdkVersion 23
     }
 
     buildTypes {
@@ -20,4 +20,5 @@ android {
 
 dependencies {
     compile project(path: ':lib')
+//    compile 'com.wzonelayer:zoomlistview:0.1.0'
 }
