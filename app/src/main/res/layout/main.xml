@@ -4,7 +4,7 @@
         android:orientation="vertical"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
-    <com.zz.lib.ZoomScrollListView
+    <com.wzonelayer.zoomlistview.ZoomScrollListView
             android:id="@+id/listview"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>

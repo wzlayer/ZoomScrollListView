@@ -1,13 +1,12 @@
-package com.zz.lib;
+package com.wzonelayer.zoomlistview;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
-
 import java.util.ArrayList;
 
-public class MyActivity extends Activity {
+public class SampleActivity extends Activity {
     /**
      * Called when the activity is first created.
      */

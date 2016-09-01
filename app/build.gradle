@@ -5,7 +5,7 @@ android {
     buildToolsVersion "24.0.1"
 
     defaultConfig {
-        applicationId "com.zz.lib"
+        applicationId "com.wzonelayer.zoomlistview"
         minSdkVersion 10
         targetSdkVersion 10
     }
