@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 19
+    compileSdkVersion 24
     buildToolsVersion "24.0.1"
 
     defaultConfig {
-        applicationId "com.wzonelayer.zoomlistview"
-        minSdkVersion 10
-        targetSdkVersion 10
+        applicationId "com.wzonelayer.zoomlistview.sample"
+        minSdkVersion 15
+        targetSdkVersion 24
     }
 
     buildTypes {
@@ -16,4 +16,8 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
+}
+
+dependencies {
+    compile project(path: ':lib')
 }
